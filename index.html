@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+</head>
+
+<body align="center">
+    <h1>Cuenta Bancaria</h1>
+    <br><br>
+    <h3>Nuevos Clientes</h3>
+    Nombre cliente <input type="text" id="client-name" placeholder="Nombre">
+    <br><br>
+    Apellido Cliente <input type="text" id="client-surname" placeholder="Apellido">
+    <br><br>
+    <button id="new-client">Crear Cliente</button>
+    <button id="create-account">Crear Cuenta</button>
+    <br><br>
+    <h3>Operar Cuenta</h3>
+    Nº cuenta <input type="number" id="account-number" placeholder="Nº cuenta">
+    <br><br>
+    Monto <input type="number" id="money-number" placeholder="Monto">
+    <br><br>
+    <button id="deposit-money">Depositar Dinero</button>
+    <button id="withdrawals">Retirar Dinero</button>
+    <br><br>
+    <h3>Eliminar Cliente</h3>
+    id Cliente <input type="text" id="client-id" placeholder="idCliente">
+    <button id="delete-client">Eliminar Cliente</button>
+    <br><br>
+    <table align="center">
+        <tr>
+            <th>Cliente</th>
+            <th>    </th>
+            <th>    </th>
+            <th>Cuenta</th>
+        </tr>
+        <tr>
+            <td id="client-data"></td>
+            <th>    </th>
+            <th>    </th>
+            <td id="account-data"></td>
+        </tr>
+
+    </table>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
